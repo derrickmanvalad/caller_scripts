@@ -13,6 +13,7 @@ class TestAiohttpVersionChecker(unittest.TestCase):
 
     def test_not_recommended_versions(self):
         state = {"counter": 0}
+        print(state)
 
         def print(message: str):
             state["counter"] = state["counter"] + 1
